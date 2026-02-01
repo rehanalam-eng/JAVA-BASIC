@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumTwoNumbers {
+public class SubTwoNumbers {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -10,8 +10,8 @@ public class SumTwoNumbers {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
-        int sum = a + b;
-        System.out.println("Sum = " + sum);
+        int sub = a - b;
+        System.out.println(sub);
 
         
     }
