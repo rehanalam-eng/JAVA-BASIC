@@ -10,7 +10,7 @@ public class multipleof10ornot{
                 continue;
                 
             }
-            System.out.println("your number is" +n);
+            System.out.println("your number is : " +n);
         } while (true);
         
     }
